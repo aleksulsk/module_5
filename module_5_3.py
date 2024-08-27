@@ -23,13 +23,10 @@ class House:
         isinstance(other, int)
         return self.number_of_floors < other.number_of_floors
     def __le__(self, other):
-        #isinstance(other, int)
         return self.number_of_floors <= other.number_of_floors
     def __gt__(self, other):
-        #isinstance(other, int)
         return self.number_of_floors > other.number_of_floors
     def __ge__(self, other):
-        #isinstance(other, int)
         return self.number_of_floors >= other.number_of_floors
     def __ne__(self, other):
         return self.number_of_floors != other.number_of_floors
